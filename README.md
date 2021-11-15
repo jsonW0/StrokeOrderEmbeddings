@@ -1,5 +1,7 @@
 # Augmenting Chinese Character Representations with Compositional Graph Learning
 
+J. Wang, K. Fu, Z. Chen, C.T. Lu, "Augmentation of Chinese Character Representations with Compositional Graph Learning," Proceedings of the Thirty-sixth AAAI Conference on Artificial Intelligence (AAAI-22), February 22-March 1, 2022.
+
 Chinese characters have semantic-rich compositional information in the form of radicals. While almost all previous research has applied CNNs to extract this compositional information at pixel level, lacking understanding on their geometric structure. Our work utilizes deep graph learning on a compact, graph-based representation of Chinese characters. This allows us to exploit temporal information within the strict stroke order used in writing characters. Our results show that our stroke-based model has potential for helping large-scale language models on some Chinese natural language understanding tasks. In particular, we demonstrate that our graph model produces more interpretable embeddings shown through word subtraction analogies and character embedding visualizations.
 ## Important Citation Note
 This work is independent from Glyce, but borrows much of the code base written by Glyce in an effort to both reproduce their results and fairly compare our proposed stroke order method.
